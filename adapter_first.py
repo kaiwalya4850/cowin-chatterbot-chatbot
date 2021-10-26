@@ -1,6 +1,5 @@
 from chatterbot.logic import LogicAdapter
 
-
 class MyLogicAdapter1(LogicAdapter):
     def __init__(self, chatbot, **kwargs):
         super().__init__(chatbot, **kwargs)

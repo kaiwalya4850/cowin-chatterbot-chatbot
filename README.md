@@ -6,7 +6,7 @@ Recently while working on Chatterbot framework, I realized there are very few tu
 - Answer FAQs on Vaccine (provides insights on how to use any existing model/algorithm in order to process the data)
 
 ### Execution and code
-First things first, Chatterbot doesn.t work with Python >3.8.0, so make sure your environment matches the criteria. 
+First things first, Chatterbot doesnt work with Python >3.8, so make sure your environment matches the criteria. 
 
 Examples of Custom Logical Adapters:
 
@@ -18,7 +18,7 @@ There are 3 functions this file, which are features of the bot:
 ```bash
 adapter_cowin1.py
 ```
-There are conditions, based on user's input, at the end of the class, which help the Bot select appropriate function. (Idea: You may try applying concept of N-grams to the list for better results and selection.)
+There are conditions, based on user's input, at the end of the Class MyLogicalAdapter, which help the Bot select appropriate function. (Idea: You may try applying concept of N-grams to the list for better results and selection.)
 
 Main file, with everything integrated:
 

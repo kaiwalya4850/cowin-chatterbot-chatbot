@@ -1,10 +1,3 @@
-# Custom logic adapter #
-# All working #
-# Docs and references: https://chatterbot.readthedocs.io/en/stable/logic/create-a-logic-adapter.html #
-# https://github.com/gunthercox/chatterbot-weather/blob/master/chatterbot_weather/weather_adapter.py #
-# Final adapter: multiple words: done, streamlit integration: done # 
-       
-
 from chatterbot.logic import LogicAdapter
 
 
